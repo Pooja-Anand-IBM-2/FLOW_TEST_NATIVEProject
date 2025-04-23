@@ -12,3 +12,7 @@ services:
   packages:
   - name: FLOW_TEST_NATIVEProject
     version: "1.0"
+- serviceName: pub.compress:compressData
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2048
