@@ -5,11 +5,11 @@
 
   <!-- nodes -->
 
-<RETRY NAME="WHILE" TIMEOUT="" LOOP-ON="FAILURE">
+<WHILE NAME="WHILE" TIMEOUT="" CONDITION="((%/a1%==%/a1%))">
 
   <!-- nodes -->
 
 <SEQUENCE NAME="NEW" EXIT-ON="FAILURE">
 </SEQUENCE>
-</RETRY>
+</WHILE>
 </FLOW>
