@@ -5,7 +5,11 @@
 
   <!-- nodes -->
 
+<RETRY NAME="WHILE" TIMEOUT="" LOOP-ON="FAILURE">
+
+  <!-- nodes -->
+
 <SEQUENCE NAME="NEW" EXIT-ON="FAILURE">
-  <COMMENT></COMMENT>
 </SEQUENCE>
+</RETRY>
 </FLOW>
