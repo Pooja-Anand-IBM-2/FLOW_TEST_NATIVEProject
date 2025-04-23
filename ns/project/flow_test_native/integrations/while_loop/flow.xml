@@ -5,11 +5,15 @@
 
   <!-- nodes -->
 
-<WHILE NAME="WHILE" TIMEOUT="" CONDITION="((%/a1%==%/a1%))">
+<WHILE NAME="WHILE" TIMEOUT="" CONDITION="((%/a1%==%/a2%))">
 
   <!-- nodes -->
 
 <SEQUENCE NAME="NEW" EXIT-ON="FAILURE">
 </SEQUENCE>
 </WHILE>
+
+<SEQUENCE NAME="NEW" EXIT-ON="FAILURE">
+  <COMMENT></COMMENT>
+</SEQUENCE>
 </FLOW>
