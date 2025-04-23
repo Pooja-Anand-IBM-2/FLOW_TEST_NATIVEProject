@@ -9,7 +9,8 @@
 
   <!-- nodes -->
 
-<SEQUENCE NAME="NEW" EXIT-ON="FAILURE">
-</SEQUENCE>
+<INVOKE NAME="Compress" SERVICE="pub.compress:compressData">
+  <COMMENT></COMMENT>
+</INVOKE>
 </RETRY>
 </FLOW>
