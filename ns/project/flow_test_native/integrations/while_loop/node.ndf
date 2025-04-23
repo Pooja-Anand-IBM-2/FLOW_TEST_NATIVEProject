@@ -80,7 +80,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">poan</value>
-    <value name="lastModifiedDate">1745409124067</value>
+    <value name="lastModifiedDate">1745409179748</value>
     <value name="displayName">while_loop</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -102,10 +102,6 @@
         <number name="lineNumberForDebug" type="Long">1</number>
       </record>
       <null name="/0/0"/>
-      <record name="/1" javaclass="com.wm.util.Values">
-        <value name="itemType">ALL</value>
-        <value name="name">NEW</value>
-      </record>
     </record>
   </record>
   <value name="svc_in_validator_options">none</value>
