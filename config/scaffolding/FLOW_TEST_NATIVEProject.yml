@@ -68,6 +68,10 @@ services:
     wpmRegistry: licensed
   - name: DesignerStepsInCloudEditorPackageWithoutRepeat
     version: "1.0"
+- serviceName: pub.string:padRight
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2048
 - serviceName: project.flow_test_native.integrations:while_loop
   packages:
   - name: FLOW_TEST_NATIVEProject
