@@ -62,9 +62,8 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">poan</value>
-    <value name="createdDate">1745515354786</value>
-    <value name="lastModifiedDate">1745515354786</value>
+    <value name="lastModifiedBy">poan</value>
+    <value name="lastModifiedDate">1745515751566</value>
     <value name="displayName">testWHILE_1</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -84,6 +83,7 @@
         <value name="nodePathNew">0</value>
         <number name="nodeIndex" type="Long">0</number>
         <number name="lineNumberForDebug" type="Long">1</number>
+        <value name="nodePathForDebug">0</value>
       </record>
       <record name="/0/0" javaclass="com.wm.util.Values">
         <null name="name"/>
@@ -96,6 +96,22 @@
         <record name="serviceName" javaclass="com.wm.util.Values">
           <value name="displayName">calculateDateDifference</value>
           <value name="serviceName">pub.date:calculateDateDifference</value>
+          <value name="transformerSupport">true</value>
+        </record>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+        <value name="nodePathForDebug">0.0</value>
+      </record>
+      <record name="/0/1" javaclass="com.wm.util.Values">
+        <null name="name"/>
+        <value name="itemType">SERVICES</value>
+        <record name="serviceInfo" javaclass="com.wm.util.Values">
+          <value name="groupDisplayName">String</value>
+          <value name="groupName">string</value>
+          <null name="services"/>
+        </record>
+        <record name="serviceName" javaclass="com.wm.util.Values">
+          <value name="displayName">padRight</value>
+          <value name="serviceName">pub.string:padRight</value>
           <value name="transformerSupport">true</value>
         </record>
       </record>
