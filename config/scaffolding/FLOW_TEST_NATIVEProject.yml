@@ -7,10 +7,82 @@ packages:
   gitUrl: https://github.com/Pooja-Anand-IBM-2
   gitUsername: Pooja-Anand-IBM-2
   gitBranch: main
+- name: EmployeePayroll
+  version: "1.0"
+  gitServerName: test1
+  gitUrl: https://github.com/rahul-singh-IBM-68
+  gitUsername: Pooja-Anand-IBM-2
+  gitBranch: main
+- name: PublicPrivateCheck
+  version: "1.0"
+  gitServerName: test1
+  gitUrl: https://github.com/Munatri
+  gitUsername: Pooja-Anand-IBM-2
+  gitBranch: main
+- name: testControlsTemplateOnPrem
+  version: "1.0"
+  gitServerName: test1
+  gitUrl: https://github.com/Pooja-Anand-IBM-2
+  gitUsername: Pooja-Anand-IBM-2
+  gitBranch: main
+- name: DesignerStepsInCloudEditorPackageWithoutRepeat
+  version: "1.0"
+  gitServerName: test1
+  gitUrl: https://github.com/santhu736852
+  gitUsername: Pooja-Anand-IBM-2
+  gitBranch: main
 services:
+- serviceName: project.flow_test_native.integrations:testWHILE
+  packages:
+  - name: FLOW_TEST_NATIVEProject
+    version: "1.0"
+  - name: EmployeePayroll
+    version: "1.0"
+  - name: PublicPrivateCheck
+    version: "1.0"
+  - name: testControlsTemplateOnPrem
+    version: "1.0"
+  - name: WmJDBCAdapter
+    version: 10.3.0.0.34
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
+  - name: DesignerStepsInCloudEditorPackageWithoutRepeat
+    version: "1.0"
+- serviceName: pub.date:calculateDateDifference
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2048
+- serviceName: project.flow_test_native.integrations:testWHILE_1
+  packages:
+  - name: FLOW_TEST_NATIVEProject
+    version: "1.0"
+  - name: EmployeePayroll
+    version: "1.0"
+  - name: PublicPrivateCheck
+    version: "1.0"
+  - name: testControlsTemplateOnPrem
+    version: "1.0"
+  - name: WmJDBCAdapter
+    version: 10.3.0.0.34
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
+  - name: DesignerStepsInCloudEditorPackageWithoutRepeat
+    version: "1.0"
 - serviceName: project.flow_test_native.integrations:while_loop
   packages:
   - name: FLOW_TEST_NATIVEProject
+    version: "1.0"
+  - name: EmployeePayroll
+    version: "1.0"
+  - name: PublicPrivateCheck
+    version: "1.0"
+  - name: testControlsTemplateOnPrem
+    version: "1.0"
+  - name: WmJDBCAdapter
+    version: 10.3.0.0.34
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
+  - name: DesignerStepsInCloudEditorPackageWithoutRepeat
     version: "1.0"
 - serviceName: pub.compress:compressData
   packages:
