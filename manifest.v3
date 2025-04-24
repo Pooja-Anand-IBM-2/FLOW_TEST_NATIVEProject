@@ -11,17 +11,18 @@
     <value name="EmployeePayroll">1.0</value>
     <value name="PublicPrivateCheck">1.0</value>
     <value name="testControlsTemplateOnPrem">1.0</value>
+    <value name="DesignerStepsInCloudEditorPackageWithoutRepeat">1.0</value>
   </record>
   <null name="listACL"/>
   <value name="webappLoad">yes</value>
   <value name="reloadWithDependentPackage">yes</value>
-  <value name="build">28</value>
+  <value name="build">36</value>
   <null name="description"/>
   <value name="created_date">23-04-2025 09:28:59 GMT</value>
   <null name="extendedProperties"/>
   <null name="target_server_version"/>
   <value name="isProjectPackage">true</value>
-  <value name="lastUpdated">2025-04-24T12:37:30.715023311Z</value>
+  <value name="lastUpdated">2025-04-24T17:22:36.485400097Z</value>
   <value name="wmProjectId">fl210c72ccc0b0625c524f9a</value>
   <value name="creator">Pooja Anand</value>
 </Values>
